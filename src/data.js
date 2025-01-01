@@ -1,7 +1,7 @@
 export const rulesLevels = [
-  { id: '1', name: 'Introductory', mtf: '1' },
-  { id: '2', name: 'Standard', mtf: '2' },
-  { id: '3', name: 'Advanced', mtf: '3' }
+  { id: '1', name: 'Introductory' },
+  { id: '2', name: 'Standard' },
+  { id: '3', name: 'Advanced' }
 ]
 
 export const techbases = [

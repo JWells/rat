@@ -1,6 +1,5 @@
-import { units } from './units.json'
+import { units } from './data.json'
 import {
-  rulesLevels,
   techbases,
   weightClasses,
   weightTypes,
@@ -10,18 +9,15 @@ import {
 export function flechsLink (unitIds) {
   const url = new URL('https://sheets.flechs.net')
   const mechNames = unitIds
-    .map(unitId => {
-      const unit = units.byId[unitId]
-      return `${unit.chassis} ${unit.model}`
-    })
+    .map(unitId => units.byId[unitId].name)
     .join(',')
   url.searchParams.append('s', mechNames)
   return url.toString()
 }
 
-export function tonnageTotal (listIds) {
-  return listIds.reduce((total, id) => {
-    return total + Number(units.byId[id].mass)
+export function sumOf (unitIds, property) {
+  return unitIds.reduce((total, id) => {
+    return total + Number(units.byId[id][property])
   }, 0)
 }
 
@@ -34,16 +30,14 @@ export function getRandom (list) {
 }
 
 export function buildList (techbaseId, rulesLevelIds, weightCompositionId, eraMax, eraMin) {
-  const techbase = techbases.find(f => f.id === techbaseId)
   const weightComposition = weightCompositions.find(weigthComposition => weigthComposition.id === weightCompositionId)
-  const mtfRulesLevels = rulesLevels.filter(rulesLevel => rulesLevelIds.includes(rulesLevel.id)).map(rulesLevel => rulesLevel.mtf)
   const availableUnits = Object.values(units.byId)
     .filter(unit => {
       return (
-        unit.techbase === techbase.name &&
-        Number(unit.era) <= Number(eraMax) &&
-        Number(unit.era) >= Number(eraMin) &&
-        mtfRulesLevels.includes(unit['rules level'])
+        unit.tech === techbaseId &&
+        Number(unit.year) <= Number(eraMax) &&
+        Number(unit.year) >= Number(eraMin) &&
+        rulesLevelIds.includes(unit.level)
       )
     })
 
@@ -53,11 +47,11 @@ export function buildList (techbaseId, rulesLevelIds, weightCompositionId, eraMa
     const options = availableUnits
       .filter(unit => {
         return (
-          Number(unit.mass) >= Min && Number(unit.mass) <= Max &&
-          !result.some(existingUnitId => units.byId[existingUnitId].chassis === unit.chassis)
+          Number(unit.tons) >= Min && Number(unit.tons) <= Max &&
+          !result.some(existingUnitId => units.byId[existingUnitId].name === unit.name)
         )
       })
-      .map(u => u['mul id'])
+      .map(u => u.id)
 
     const unit = getRandom(options)
     if (unit) {
@@ -75,16 +69,12 @@ export function getUnitById (id) {
   return units.byId[id]
 }
 
-export function formattedUnitName (unit) {
-  return `${unit.chassis} ${unit.model}`.trim()
-}
-
 export function getMaxEra () {
-  return Math.max(...Object.values(units.byId).map(unit => Number(unit.era)))
+  return Math.max(...Object.values(units.byId).map(unit => Number(unit.year)))
 }
 
 export function getMinEra () {
-  return Math.min(...Object.values(units.byId).map(unit => Number(unit.era)))
+  return Math.min(...Object.values(units.byId).map(unit => Number(unit.year)))
 }
 
 export function directLink (state) {
@@ -109,8 +99,8 @@ export function setInitialState (state) {
   const rulesLevelIds = searchParams.get('r')?.split(',') || ['1', '2']
   const eraMaxPossible = getMaxEra()
   const eraMinPossible = getMinEra()
-  const eraMin = searchParams.get('y1') || getRandomInt(eraMinPossible, eraMaxPossible - 1)
-  const eraMax = searchParams.get('y2') || getRandomInt(eraMin, eraMaxPossible)
+  const eraMin = searchParams.get('y1') || eraMinPossible
+  const eraMax = searchParams.get('y2') || eraMaxPossible
 
   const weightCompositionId = searchParams.get('c') || getRandom(availableWeightCompositions(weightClassId, techbaseId).map(w => w.id))
 
