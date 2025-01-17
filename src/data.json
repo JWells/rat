@@ -1037,60 +1037,6 @@
         "tech": "2",
         "year": "3066"
       },
-      "211": {
-        "id": "211",
-        "name": "Balius A",
-        "bv": "2201",
-        "level": "2",
-        "tons": "65",
-        "tech": "2",
-        "year": "3075"
-      },
-      "212": {
-        "id": "212",
-        "name": "Balius B",
-        "bv": "2029",
-        "level": "2",
-        "tons": "65",
-        "tech": "2",
-        "year": "3075"
-      },
-      "213": {
-        "id": "213",
-        "name": "Balius C",
-        "bv": "2103",
-        "level": "2",
-        "tons": "65",
-        "tech": "2",
-        "year": "3075"
-      },
-      "214": {
-        "id": "214",
-        "name": "Balius D",
-        "bv": "2417",
-        "level": "2",
-        "tons": "65",
-        "tech": "2",
-        "year": "3075"
-      },
-      "215": {
-        "id": "215",
-        "name": "Balius Prime",
-        "bv": "2157",
-        "level": "2",
-        "tons": "65",
-        "tech": "2",
-        "year": "3075"
-      },
-      "216": {
-        "id": "216",
-        "name": "Balius U",
-        "bv": "2014",
-        "level": "3",
-        "tons": "65",
-        "tech": "2",
-        "year": "3077"
-      },
       "217": {
         "id": "217",
         "name": "Bandersnatch BNDR-01A",
@@ -1720,33 +1666,6 @@
         "tons": "100",
         "tech": "1",
         "year": "3067"
-      },
-      "332": {
-        "id": "332",
-        "name": "Bishamon BSN-3K",
-        "bv": "1374",
-        "level": "2",
-        "tons": "45",
-        "tech": "1",
-        "year": "3060"
-      },
-      "333": {
-        "id": "333",
-        "name": "Bishamon BSN-4K",
-        "bv": "1105",
-        "level": "2",
-        "tons": "45",
-        "tech": "1",
-        "year": "3060"
-      },
-      "334": {
-        "id": "334",
-        "name": "Bishamon BSN-5KC",
-        "bv": "1443",
-        "level": "2",
-        "tons": "45",
-        "tech": "1",
-        "year": "3076"
       },
       "335": {
         "id": "335",
@@ -5582,33 +5501,6 @@
         "tech": "2",
         "year": "3052"
       },
-      "1071": {
-        "id": "1071",
-        "name": "Fire Scorpion",
-        "bv": "1546",
-        "level": "2",
-        "tons": "65",
-        "tech": "2",
-        "year": "2852"
-      },
-      "1072": {
-        "id": "1072",
-        "name": "Fire Scorpion 2",
-        "bv": "1749",
-        "level": "2",
-        "tons": "65",
-        "tech": "2",
-        "year": "3060"
-      },
-      "1073": {
-        "id": "1073",
-        "name": "Fire Scorpion 3",
-        "bv": "1904",
-        "level": "2",
-        "tons": "65",
-        "tech": "2",
-        "year": "3071"
-      },
       "1074": {
         "id": "1074",
         "name": "Fireball ALM-10D",
@@ -6401,90 +6293,9 @@
         "tech": "2",
         "year": "3001"
       },
-      "1229": {
-        "id": "1229",
-        "name": "Goliath GOL-1H",
-        "bv": "1449",
-        "level": "1",
-        "tons": "80",
-        "tech": "1",
-        "year": "2652"
-      },
-      "1230": {
-        "id": "1230",
-        "name": "Goliath GOL-2H",
-        "bv": "1583",
-        "level": "2",
-        "tons": "80",
-        "tech": "1",
-        "year": "3067"
-      },
-      "1231": {
-        "id": "1231",
-        "name": "Goliath GOL-3L",
-        "bv": "1708",
-        "level": "2",
-        "tons": "80",
-        "tech": "1",
-        "year": "3082"
-      },
-      "1232": {
-        "id": "1232",
-        "name": "Goliath GOL-3M",
-        "bv": "1537",
-        "level": "2",
-        "tons": "80",
-        "tech": "1",
-        "year": "3047"
-      },
-      "1233": {
-        "id": "1233",
-        "name": "Goliath GOL-3S",
-        "bv": "1792",
-        "level": "2",
-        "tons": "80",
-        "tech": "1",
-        "year": "3066"
-      },
-      "1234": {
-        "id": "1234",
-        "name": "Goliath GOL-4S",
-        "bv": "1923",
-        "level": "2",
-        "tons": "80",
-        "tech": "1",
-        "year": "3067"
-      },
-      "1235": {
-        "id": "1235",
-        "name": "Goliath GOL-5D",
-        "bv": "1975",
-        "level": "2",
-        "tons": "80",
-        "tech": "1",
-        "year": "3067"
-      },
-      "1236": {
-        "id": "1236",
-        "name": "Goliath GOL-5W",
-        "bv": "2006",
-        "level": "2",
-        "tons": "80",
-        "tech": "1",
-        "year": "3071"
-      },
-      "1237": {
-        "id": "1237",
-        "name": "Goliath GOL-6H",
-        "bv": "1676",
-        "level": "2",
-        "tons": "80",
-        "tech": "1",
-        "year": "3071"
-      },
       "1243": {
         "id": "1243",
-        "name": "Goshawk",
+        "name": "Goshawk Standard",
         "bv": "2368",
         "level": "2",
         "tons": "55",
@@ -14690,33 +14501,6 @@
         "tech": "1",
         "year": "3069"
       },
-      "2951": {
-        "id": "2951",
-        "name": "Sirocco SRC-3C",
-        "bv": "2154",
-        "level": "2",
-        "tons": "95",
-        "tech": "1",
-        "year": "3060"
-      },
-      "2952": {
-        "id": "2952",
-        "name": "Sirocco SRC-5C",
-        "bv": "2107",
-        "level": "2",
-        "tons": "95",
-        "tech": "1",
-        "year": "3060"
-      },
-      "2953": {
-        "id": "2953",
-        "name": "Sirocco SRC-6C",
-        "bv": "2202",
-        "level": "2",
-        "tons": "95",
-        "tech": "1",
-        "year": "3070"
-      },
       "2967": {
         "id": "2967",
         "name": "Sling SL-1G",
@@ -14770,33 +14554,6 @@
         "tons": "45",
         "tech": "1",
         "year": "3070"
-      },
-      "2979": {
-        "id": "2979",
-        "name": "Snow Fox",
-        "bv": "807",
-        "level": "2",
-        "tons": "20",
-        "tech": "2",
-        "year": "3015"
-      },
-      "2980": {
-        "id": "2980",
-        "name": "Snow Fox 2",
-        "bv": "604",
-        "level": "2",
-        "tons": "20",
-        "tech": "2",
-        "year": "3015"
-      },
-      "2981": {
-        "id": "2981",
-        "name": "Snow Fox 3",
-        "bv": "903",
-        "level": "2",
-        "tons": "20",
-        "tech": "2",
-        "year": "3072"
       },
       "2994": {
         "id": "2994",
@@ -15058,33 +14815,6 @@
         "tons": "85",
         "tech": "1",
         "year": "3064"
-      },
-      "3045": {
-        "id": "3045",
-        "name": "Stalking Spider",
-        "bv": "2232",
-        "level": "2",
-        "tons": "50",
-        "tech": "2",
-        "year": "3059"
-      },
-      "3046": {
-        "id": "3046",
-        "name": "Stalking Spider 2",
-        "bv": "2056",
-        "level": "2",
-        "tons": "50",
-        "tech": "2",
-        "year": "3060"
-      },
-      "3047": {
-        "id": "3047",
-        "name": "Stalking Spider 3",
-        "bv": "1643",
-        "level": "2",
-        "tons": "50",
-        "tech": "2",
-        "year": "3072"
       },
       "3048": {
         "id": "3048",
@@ -15608,42 +15338,6 @@
         "tech": "1",
         "year": "3076"
       },
-      "3160": {
-        "id": "3160",
-        "name": "Tarantula ZPH-1",
-        "bv": "666",
-        "level": "2",
-        "tons": "25",
-        "tech": "1",
-        "year": "3054"
-      },
-      "3161": {
-        "id": "3161",
-        "name": "Tarantula ZPH-2A",
-        "bv": "744",
-        "level": "2",
-        "tons": "25",
-        "tech": "1",
-        "year": "3060"
-      },
-      "3162": {
-        "id": "3162",
-        "name": "Tarantula ZPH-3A",
-        "bv": "702",
-        "level": "2",
-        "tons": "25",
-        "tech": "1",
-        "year": "3063"
-      },
-      "3163": {
-        "id": "3163",
-        "name": "Tarantula ZPH-4A",
-        "bv": "967",
-        "level": "2",
-        "tons": "25",
-        "tech": "1",
-        "year": "3066"
-      },
       "3164": {
         "id": "3164",
         "name": "Targe TRG-1N",
@@ -15968,24 +15662,6 @@
         "tech": "1",
         "year": "3066"
       },
-      "3217": {
-        "id": "3217",
-        "name": "Thunder Fox TFT-A9",
-        "bv": "1325",
-        "level": "2",
-        "tons": "55",
-        "tech": "1",
-        "year": "3077"
-      },
-      "3219": {
-        "id": "3219",
-        "name": "Thunder Fox TFT-L8",
-        "bv": "1513",
-        "level": "2",
-        "tons": "55",
-        "tech": "1",
-        "year": "3082"
-      },
       "3220": {
         "id": "3220",
         "name": "Thunder Hawk TDK-7KMA",
@@ -16021,33 +15697,6 @@
         "tons": "100",
         "tech": "1",
         "year": "3058"
-      },
-      "3224": {
-        "id": "3224",
-        "name": "Thunder Stallion",
-        "bv": "2306",
-        "level": "2",
-        "tons": "85",
-        "tech": "2",
-        "year": "2850"
-      },
-      "3225": {
-        "id": "3225",
-        "name": "Thunder Stallion 2 'Fire Stallion'",
-        "bv": "2575",
-        "level": "2",
-        "tons": "85",
-        "tech": "2",
-        "year": "2877"
-      },
-      "3226": {
-        "id": "3226",
-        "name": "Thunder Stallion 3",
-        "bv": "2631",
-        "level": "2",
-        "tons": "85",
-        "tech": "2",
-        "year": "3069"
       },
       "3231": {
         "id": "3231",
@@ -16318,33 +15967,6 @@
         "tons": "75",
         "tech": "1",
         "year": "3072"
-      },
-      "3292": {
-        "id": "3292",
-        "name": "Trebaruna TR-XB",
-        "bv": "2223",
-        "level": "2",
-        "tons": "95",
-        "tech": "1",
-        "year": "3081"
-      },
-      "3293": {
-        "id": "3293",
-        "name": "Trebaruna TR-XJ",
-        "bv": "2270",
-        "level": "2",
-        "tons": "95",
-        "tech": "1",
-        "year": "3081"
-      },
-      "3294": {
-        "id": "3294",
-        "name": "Trebaruna TR-XL",
-        "bv": "2244",
-        "level": "2",
-        "tons": "95",
-        "tech": "1",
-        "year": "3081"
       },
       "3295": {
         "id": "3295",
@@ -18317,33 +17939,6 @@
         "tech": "2",
         "year": "3071"
       },
-      "3604": {
-        "id": "3604",
-        "name": "Xanthos XNT-3O",
-        "bv": "1948",
-        "level": "1",
-        "tons": "100",
-        "tech": "1",
-        "year": "2579"
-      },
-      "3605": {
-        "id": "3605",
-        "name": "Xanthos XNT-4O",
-        "bv": "2548",
-        "level": "2",
-        "tons": "100",
-        "tech": "1",
-        "year": "3068"
-      },
-      "3606": {
-        "id": "3606",
-        "name": "Xanthos XNT-5O",
-        "bv": "2146",
-        "level": "2",
-        "tons": "100",
-        "tech": "1",
-        "year": "3076"
-      },
       "3609": {
         "id": "3609",
         "name": "Yao Lien YOL-4C",
@@ -18704,24 +18299,6 @@
         "tech": "1",
         "year": "3071"
       },
-      "3790": {
-        "id": "3790",
-        "name": "Barghest BGS-4T",
-        "bv": "1734",
-        "level": "3",
-        "tons": "70",
-        "tech": "1",
-        "year": "3083"
-      },
-      "3791": {
-        "id": "3791",
-        "name": "Barghest BGS-4X",
-        "bv": "1667",
-        "level": "3",
-        "tons": "70",
-        "tech": "1",
-        "year": "3078"
-      },
       "3805": {
         "id": "3805",
         "name": "BattleMaster BLR-3M (Rogers)",
@@ -18820,15 +18397,6 @@
         "tons": "45",
         "tech": "1",
         "year": "3067"
-      },
-      "3840": {
-        "id": "3840",
-        "name": "Blue Flame BLF-21",
-        "bv": "1256",
-        "level": "2",
-        "tons": "45",
-        "tech": "1",
-        "year": "3062"
       },
       "3857": {
         "id": "3857",
@@ -19766,15 +19334,6 @@
         "tech": "1",
         "year": "3063"
       },
-      "4911": {
-        "id": "4911",
-        "name": "Revenant UBM-1A",
-        "bv": "826",
-        "level": "3",
-        "tons": "30",
-        "tech": "1",
-        "year": "3075"
-      },
       "4967": {
         "id": "4967",
         "name": "Sagittaire SGT-8R",
@@ -20251,24 +19810,6 @@
         "tons": "30",
         "tech": "1",
         "year": "2703"
-      },
-      "5404": {
-        "id": "5404",
-        "name": "White Flame WHF-3B",
-        "bv": "1637",
-        "level": "2",
-        "tons": "70",
-        "tech": "1",
-        "year": "3065"
-      },
-      "5405": {
-        "id": "5405",
-        "name": "White Flame WHF-3C",
-        "bv": "1826",
-        "level": "3",
-        "tons": "70",
-        "tech": "1",
-        "year": "3069"
       },
       "5416": {
         "id": "5416",
@@ -20963,15 +20504,6 @@
         "tech": "1",
         "year": "3081"
       },
-      "5693": {
-        "id": "5693",
-        "name": "White Flame WHF-4C",
-        "bv": "1680",
-        "level": "2",
-        "tons": "70",
-        "tech": "1",
-        "year": "3077"
-      },
       "5694": {
         "id": "5694",
         "name": "Burrock 2",
@@ -21331,33 +20863,6 @@
         "tons": "85",
         "tech": "1",
         "year": "2750"
-      },
-      "6252": {
-        "id": "6252",
-        "name": "Arion",
-        "bv": "849",
-        "level": "3",
-        "tons": "35",
-        "tech": "2",
-        "year": "3136"
-      },
-      "6253": {
-        "id": "6253",
-        "name": "Cyllaros",
-        "bv": "1450",
-        "level": "3",
-        "tons": "55",
-        "tech": "2",
-        "year": "3136"
-      },
-      "6254": {
-        "id": "6254",
-        "name": "Harpagos",
-        "bv": "1721",
-        "level": "3",
-        "tons": "75",
-        "tech": "2",
-        "year": "3136"
       },
       "6256": {
         "id": "6256",
@@ -22187,15 +21692,6 @@
         "tech": "1",
         "year": "3112"
       },
-      "6506": {
-        "id": "6506",
-        "name": "Sarath SRTH-1O",
-        "bv": "1630",
-        "level": "3",
-        "tons": "50",
-        "tech": "1",
-        "year": "3122"
-      },
       "6510": {
         "id": "6510",
         "name": "Anzu ZU-G60",
@@ -22303,15 +21799,6 @@
         "tons": "35",
         "tech": "2",
         "year": "3099"
-      },
-      "6553": {
-        "id": "6553",
-        "name": "Stalking Spider II",
-        "bv": "1362",
-        "level": "3",
-        "tons": "45",
-        "tech": "2",
-        "year": "3110"
       },
       "6554": {
         "id": "6554",
@@ -22529,24 +22016,6 @@
         "tech": "1",
         "year": "3109"
       },
-      "6612": {
-        "id": "6612",
-        "name": "Jaguar",
-        "bv": "1791",
-        "level": "3",
-        "tons": "35",
-        "tech": "2",
-        "year": "3121"
-      },
-      "6613": {
-        "id": "6613",
-        "name": "Jaguar 2",
-        "bv": "1780",
-        "level": "2",
-        "tons": "35",
-        "tech": "2",
-        "year": "3123"
-      },
       "6614": {
         "id": "6614",
         "name": "Storm Raider STM-R3",
@@ -22636,24 +22105,6 @@
         "tons": "65",
         "tech": "1",
         "year": "3131"
-      },
-      "6627": {
-        "id": "6627",
-        "name": "Ursa URA-2A",
-        "bv": "1887",
-        "level": "3",
-        "tons": "65",
-        "tech": "1",
-        "year": "3122"
-      },
-      "6628": {
-        "id": "6628",
-        "name": "Ursa URA-2C",
-        "bv": "2570",
-        "level": "3",
-        "tons": "65",
-        "tech": "2",
-        "year": "3125"
       },
       "6629": {
         "id": "6629",
@@ -22960,24 +22411,6 @@
         "tons": "70",
         "tech": "1",
         "year": "2771"
-      },
-      "6824": {
-        "id": "6824",
-        "name": "Xanthos XNT-7O",
-        "bv": "2620",
-        "level": "3",
-        "tons": "100",
-        "tech": "1",
-        "year": "3119"
-      },
-      "6825": {
-        "id": "6825",
-        "name": "Xanthos XNT-6O",
-        "bv": "2320",
-        "level": "2",
-        "tons": "100",
-        "tech": "1",
-        "year": "3094"
       },
       "6826": {
         "id": "6826",
@@ -23942,15 +23375,6 @@
         "tech": "2",
         "year": "3093"
       },
-      "6941": {
-        "id": "6941",
-        "name": "Tarantula ZPH-5A",
-        "bv": "806",
-        "level": "3",
-        "tons": "25",
-        "tech": "1",
-        "year": "3111"
-      },
       "6942": {
         "id": "6942",
         "name": "Ebony MEB-12",
@@ -24320,96 +23744,6 @@
         "tech": "1",
         "year": "3115"
       },
-      "7351": {
-        "id": "7351",
-        "name": "Boreas Prime",
-        "bv": "1583",
-        "level": "3",
-        "tons": "60",
-        "tech": "2",
-        "year": "3132"
-      },
-      "7352": {
-        "id": "7352",
-        "name": "Boreas A",
-        "bv": "1221",
-        "level": "3",
-        "tons": "60",
-        "tech": "2",
-        "year": "3132"
-      },
-      "7353": {
-        "id": "7353",
-        "name": "Boreas B",
-        "bv": "1331",
-        "level": "3",
-        "tons": "60",
-        "tech": "2",
-        "year": "3132"
-      },
-      "7354": {
-        "id": "7354",
-        "name": "Boreas C",
-        "bv": "1502",
-        "level": "3",
-        "tons": "60",
-        "tech": "2",
-        "year": "3132"
-      },
-      "7355": {
-        "id": "7355",
-        "name": "Boreas D",
-        "bv": "1394",
-        "level": "3",
-        "tons": "60",
-        "tech": "2",
-        "year": "3132"
-      },
-      "7370": {
-        "id": "7370",
-        "name": "Notos Prime",
-        "bv": "2139",
-        "level": "3",
-        "tons": "60",
-        "tech": "2",
-        "year": "3145"
-      },
-      "7371": {
-        "id": "7371",
-        "name": "Notos A",
-        "bv": "1469",
-        "level": "3",
-        "tons": "60",
-        "tech": "2",
-        "year": "3145"
-      },
-      "7372": {
-        "id": "7372",
-        "name": "Notos B",
-        "bv": "1788",
-        "level": "3",
-        "tons": "60",
-        "tech": "2",
-        "year": "3145"
-      },
-      "7373": {
-        "id": "7373",
-        "name": "Notos C",
-        "bv": "1572",
-        "level": "3",
-        "tons": "60",
-        "tech": "2",
-        "year": "3145"
-      },
-      "7374": {
-        "id": "7374",
-        "name": "Notos D",
-        "bv": "1777",
-        "level": "3",
-        "tons": "60",
-        "tech": "2",
-        "year": "3145"
-      },
       "7377": {
         "id": "7377",
         "name": "Osprey OSP-36",
@@ -24436,15 +23770,6 @@
         "tons": "75",
         "tech": "1",
         "year": "3146"
-      },
-      "7385": {
-        "id": "7385",
-        "name": "Lich UABM-2R",
-        "bv": "1719",
-        "level": "3",
-        "tons": "90",
-        "tech": "1",
-        "year": "3140"
       },
       "7395": {
         "id": "7395",
@@ -26795,15 +26120,6 @@
         "tech": "2",
         "year": "3145"
       },
-      "7882": {
-        "id": "7882",
-        "name": "Tolva",
-        "bv": "1449",
-        "level": "3",
-        "tons": "40",
-        "tech": "2",
-        "year": "3145"
-      },
       "7884": {
         "id": "7884",
         "name": "Surtur SUR-T1",
@@ -28280,33 +27596,6 @@
         "tech": "2",
         "year": "3146"
       },
-      "8314": {
-        "id": "8314",
-        "name": "Scorpion SCP-1BR",
-        "bv": "1473",
-        "level": "2",
-        "tons": "55",
-        "tech": "1",
-        "year": "3088"
-      },
-      "8315": {
-        "id": "8315",
-        "name": "Scorpion SCP-2N",
-        "bv": "1562",
-        "level": "2",
-        "tons": "55",
-        "tech": "1",
-        "year": "3131"
-      },
-      "8316": {
-        "id": "8316",
-        "name": "Scorpion C",
-        "bv": "2331",
-        "level": "2",
-        "tons": "55",
-        "tech": "1",
-        "year": "3150"
-      },
       "8317": {
         "id": "8317",
         "name": "Orion C 2",
@@ -28889,51 +28178,6 @@
         "bv": "1272",
         "level": "2",
         "tons": "40",
-        "tech": "2",
-        "year": "3147"
-      },
-      "8393": {
-        "id": "8393",
-        "name": "Doom Courser Prime",
-        "bv": "2283",
-        "level": "3",
-        "tons": "70",
-        "tech": "2",
-        "year": "3147"
-      },
-      "8394": {
-        "id": "8394",
-        "name": "Doom Courser A",
-        "bv": "2139",
-        "level": "3",
-        "tons": "70",
-        "tech": "2",
-        "year": "3147"
-      },
-      "8395": {
-        "id": "8395",
-        "name": "Doom Courser B",
-        "bv": "2091",
-        "level": "3",
-        "tons": "70",
-        "tech": "2",
-        "year": "3147"
-      },
-      "8396": {
-        "id": "8396",
-        "name": "Doom Courser C",
-        "bv": "2147",
-        "level": "3",
-        "tons": "70",
-        "tech": "2",
-        "year": "3147"
-      },
-      "8397": {
-        "id": "8397",
-        "name": "Doom Courser D",
-        "bv": "2453",
-        "level": "3",
-        "tons": "70",
         "tech": "2",
         "year": "3147"
       },
